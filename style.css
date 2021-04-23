@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(55, 185, 200), rgb(235, 1, 254)) repeat scroll 0% 0%; /* Standard syntax */
 }
 
 h1 {
@@ -24,4 +24,9 @@ h3 {
     text-transform: none;
     letter-spacing: 0.01em;
 
+}
+
+
+p {
+    font-size: 11px;
 }
